@@ -9,7 +9,9 @@ bun install
 To run:
 
 ```bash
-bun run consolidate-repo.ts
+bun run consolidate-repo.ts <repo path>
 ```
 
-This project was created using `bun init` in bun v1.2.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+# How it works: 
+
+Takes a directory and recursively turns it into a text file 
